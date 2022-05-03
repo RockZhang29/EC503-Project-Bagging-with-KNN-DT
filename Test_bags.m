@@ -47,7 +47,7 @@ end
 figure(1);
 i=50:50:1000;
 plot(i,err_arr,'*-')
-title('Test error verse number of bags')
+title('Validation error verse number of bags')
 xlabel('number of bags');
 ylabel('Error precentage');
 

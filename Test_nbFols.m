@@ -48,7 +48,7 @@ end
 figure(1);
 i=50:50:1500;
 plot(i,err_arr,'*-')
-title('Test error verse elements per bags')
+title('Validation error verse elements per bags')
 xlabel('number of elements pre bags');
 ylabel('Error precentage');
 

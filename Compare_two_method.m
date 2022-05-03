@@ -59,5 +59,5 @@ k=1:10;
 plot(k,err_tree,'r*-');
 hold on;
 plot(k,err_knn,'b.-');
-title('Test error between Knn and Tree');
+title('Validation error between Knn and Tree');
 legend('Tree','Knn');

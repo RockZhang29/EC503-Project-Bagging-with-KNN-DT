@@ -27,7 +27,7 @@ fprintf('Error made: %f %%\n', err * 100);
 err_arr(end+1)=(err*100);
 end
 mn=mean(err_arr);
-fprintf('The mean test error is %d %',mn);
+fprintf('The mean validation error is %d %',mn);
 figure;
 k=1:10;
 plot(k,err_arr,'b*-');

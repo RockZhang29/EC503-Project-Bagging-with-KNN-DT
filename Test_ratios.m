@@ -45,7 +45,7 @@ end
 figure(1);
 i=0.6:0.05:0.95;
 plot(i,err_arr,'*-')
-title('Test error verse ratio')
+title('Validation error verse ratio')
 xlabel('Ratio');
 ylabel('Error precentage');
 
